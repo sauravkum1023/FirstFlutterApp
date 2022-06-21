@@ -7,14 +7,11 @@ class HomePage extends StatelessWidget{
       appBar: AppBar(
         title: Text("Catalog App"),
       ),
-      body:Material(
-        child: Center(
+      body:Center(
           child: Container(
             child: Text("Welcome to 30 days of flutter"),
           ),
         ), 
-      ),  
-
     );
     
   }
